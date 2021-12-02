@@ -1,0 +1,436 @@
+Uri: http://www.ulasoft.uz/
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\index.htm
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/usoft/images/g10.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\g10.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\npm\bootstrap@5.1.3\dist\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://use.fontawesome.com/releases/v5.0.13/css/all.css
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\releases\v5.0.13\css\all.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\css2.css
+Content Type: text/css
+
+Uri: http://www.ulasoft.uz/usoft/css/style.css
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\css\style.css
+Content Type: text/css
+
+Uri: http://www.ulasoft.uz/service
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\service.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/about
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\about.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/contact
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\contact.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/service-show/3
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\service-show\3.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/service-show/4
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\service-show\4.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/service-show/6
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\service-show\6.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/2
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\2.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/3
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\3.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/4
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\4.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/5
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\5.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/6
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\6.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/7
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\7.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/8
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\8.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/9
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\9.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/10
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\10.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/11
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\11.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/12
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\12.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/portfolio/13
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\portfolio\13.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/umbrellasoftuz
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\umbrellasoftuz.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/website
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\website.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/mobile-app
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\mobile-app.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/automation
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\automation.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/usoft/images/logo-black.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\logo-black.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/btn/1.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\btn\1.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/btn/cuate.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\btn\cuate.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/btn/mobile.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\btn\mobile.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/intro.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\intro.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/9SrFC9Dxi5nTxkjjDDjNMkGT9TMrX51BrpCxg35G.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\9SrFC9Dxi5nTxkjjDDjNMkGT9TMrX51BrpCxg35G.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/wucO0btV1AvmNqdAYVpjB6YPd1BIhpyTJZgAjx0v.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\wucO0btV1AvmNqdAYVpjB6YPd1BIhpyTJZgAjx0v.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/wazZY8irBhMH8DNMQIQJzG2m5FW87x2RSnyW5pmZ.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\wazZY8irBhMH8DNMQIQJzG2m5FW87x2RSnyW5pmZ.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/K98uMyAtJSCPodkilxuHmyj5tvarh4DqIhjZQrXF.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\K98uMyAtJSCPodkilxuHmyj5tvarh4DqIhjZQrXF.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/FyBrCp8LxhYq2IoTAJkbpF2Yjxv0gtaXAc3YY2r7.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\FyBrCp8LxhYq2IoTAJkbpF2Yjxv0gtaXAc3YY2r7.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/FuKaZDEax9uYg080j8RXp90nqnMiGnqQRI8GJw4j.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\FuKaZDEax9uYg080j8RXp90nqnMiGnqQRI8GJw4j.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/3vGoQ1ejiS9A1XJpZb6XnLlwkslx6CzCzoZX4JO4.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\3vGoQ1ejiS9A1XJpZb6XnLlwkslx6CzCzoZX4JO4.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/Qm6ThcA1cEzQGyVuWvE3AkQB3Ny4WQLl0AANlifQ.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\Qm6ThcA1cEzQGyVuWvE3AkQB3Ny4WQLl0AANlifQ.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/RRXn63OgIB4TDXXnNsaF1ohz8benB5gCv4UGGZyt.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\RRXn63OgIB4TDXXnNsaF1ohz8benB5gCv4UGGZyt.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/dbSilnPw7KjKHGq9MAxhG9yH3h1e4mGMq8YzPjBf.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\dbSilnPw7KjKHGq9MAxhG9yH3h1e4mGMq8YzPjBf.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/Zy7cf00qzmYxowVApAYWoE67k3PPQS3wvr7cb3sX.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\Zy7cf00qzmYxowVApAYWoE67k3PPQS3wvr7cb3sX.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/IsqtpzAljmT9OwptkUVDuYhQwl5tuH58itQHZdCl.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\IsqtpzAljmT9OwptkUVDuYhQwl5tuH58itQHZdCl.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/NejRORhoXS4xNDXrGm6aFutk3i2C6skb3Kz1mzjC.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\NejRORhoXS4xNDXrGm6aFutk3i2C6skb3Kz1mzjC.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/4YK69DxdaMzEetOTZcgsBMp3gAiLC4e2mkifWBaG.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\4YK69DxdaMzEetOTZcgsBMp3gAiLC4e2mkifWBaG.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/tkZGbEC2DHRMerGOlzNeAA3cU6N6kWaVMuKklg5y.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\tkZGbEC2DHRMerGOlzNeAA3cU6N6kWaVMuKklg5y.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/0jQHImR3JaJMcv14k8orrpvPRmHBXnI7QTSPesbb.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\0jQHImR3JaJMcv14k8orrpvPRmHBXnI7QTSPesbb.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/cwVYfg7PuGnrkDr5nf30ns4kgaCpQLZvqhqgi14m.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\cwVYfg7PuGnrkDr5nf30ns4kgaCpQLZvqhqgi14m.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/1RM0Oli9XKFUHHzMNiVn5EEFojeOSjpY7TWdY5Nw.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\1RM0Oli9XKFUHHzMNiVn5EEFojeOSjpY7TWdY5Nw.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/6l4JQVJvjA8OpYJ9hRlPT6PiVoTyXiTBoo7k5aAO.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\6l4JQVJvjA8OpYJ9hRlPT6PiVoTyXiTBoo7k5aAO.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/storage/uploads/uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/footer/1.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\footer\1.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/footer/2.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\footer\2.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\npm\@popperjs\core@2.10.2\dist\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\npm\bootstrap@5.1.3\dist\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: http://www.ulasoft.uz/usoft/Js/jquery.maskedinput.min.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\Js\jquery.maskedinput.min.js
+Content Type: application/javascript
+
+Uri: http://www.ulasoft.uz/usoft/Js/app.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\Js\app.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/swiper@7.3.1/swiper-bundle.min.css
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\swiper@7.3.1\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\css2-1.css
+Content Type: text/css
+
+Uri: http://www.ulasoft.uz/usoft/images/page2.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\page2.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/1.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\1.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/portfolio/1.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\portfolio\1.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/usoft/images/projects/1.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\projects\1.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/usoft/images/projects/2.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\projects\2.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/usoft/images/portfolio/4.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\portfolio\4.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/cuate.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\cuate.svg
+Content Type: image/svg+xml
+
+Uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95918.7325604639!2d69.20303225431053!3d41.29884703217332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bb57e24d1c9:0xf548ddd800cca44f!2zVXNvZnQgLSDQoNCw0LfRgNCw0LHQvtGC0LrQsCDRgdCw0LnRgtC-0LIg0Lgg0JzQvtCx0LjQu9GM0L3Ri9GFINC_0YDQuNC70L7QttC10L3QuNC5INCyINCi0LDRiNC60LXQvdGC0LU!5e0!3m2!1sru!2s!4v1635745725614!5m2!1sru!2s
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\maps\embed.html
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/storage/uploads/bgjH9qT6mPm2vU6asK2jNra0QihwDjDxEsiphBme.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\bgjH9qT6mPm2vU6asK2jNra0QihwDjDxEsiphBme.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/h9izIVtCnZwPQbwGpfwELVXj3weFTTLkaUKkFqyu.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\h9izIVtCnZwPQbwGpfwELVXj3weFTTLkaUKkFqyu.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/nxWpxH6b6gFmCPjHVb8rXcZHfYUTtqym1rs451pN.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\nxWpxH6b6gFmCPjHVb8rXcZHfYUTtqym1rs451pN.png
+Content Type: image/png
+
+Uri: https://www.24seven.uz/
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\index-1.htm
+Content Type: text/html
+
+Uri: https://24seven.uz/
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\index-2.htm
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/storage/uploads/K1JO4ouwi3xCcD2jbIsneDoc35k4Pp5X6r5KYccy.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\K1JO4ouwi3xCcD2jbIsneDoc35k4Pp5X6r5KYccy.jpg
+Content Type: image/jpeg
+
+Uri: https://alutex.uz/
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\index-3.htm
+Content Type: text/html
+
+Uri: http://www.ulasoft.uz/storage/uploads/MWvUgfuj2KOg8ayGbKuDNP8Upa6bs4Vnt4stWB5j.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\MWvUgfuj2KOg8ayGbKuDNP8Upa6bs4Vnt4stWB5j.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/5Xh5kyF81JiUFkFJzzN1a7ebC4Lq9pjSLCuItCKv.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\5Xh5kyF81JiUFkFJzzN1a7ebC4Lq9pjSLCuItCKv.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/QGR3utQOjEDfjgiD1sF6kXsfGVXil3aw8CjcGVS6.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\QGR3utQOjEDfjgiD1sF6kXsfGVXil3aw8CjcGVS6.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/aaYopi0dp7Y7hILTJrmpVHFOp2H3pzikKoumo485.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\aaYopi0dp7Y7hILTJrmpVHFOp2H3pzikKoumo485.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/rOHvommFDO3QQGKQxui9pht1AzmZgP0MSeg3Bh3G.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\rOHvommFDO3QQGKQxui9pht1AzmZgP0MSeg3Bh3G.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/ybOsnzaTtzfV7qJ4O1WWsJvOssgkdoYwSKHQQY9l.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\ybOsnzaTtzfV7qJ4O1WWsJvOssgkdoYwSKHQQY9l.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/VpmxlljEk1qKo6zmgUeGx4PT8X2ffsypZiPPFV6k.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\VpmxlljEk1qKo6zmgUeGx4PT8X2ffsypZiPPFV6k.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/z7m3HniGpUlTzBUSAf7HRUbvXBeKSlNsvcYsyEoq.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\z7m3HniGpUlTzBUSAf7HRUbvXBeKSlNsvcYsyEoq.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/storage/uploads/ndbDbbwRGWypP5ONPTGSslrxQ5wySiRLniIeVxxv.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\ndbDbbwRGWypP5ONPTGSslrxQ5wySiRLniIeVxxv.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/odTlGYdIKvT0yUBn7almS2esgLSuj6uMfCxjAYJQ.jpg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\odTlGYdIKvT0yUBn7almS2esgLSuj6uMfCxjAYJQ.jpg
+Content Type: image/jpeg
+
+Uri: http://www.ulasoft.uz/storage/uploads/b6MUpMgJap1N7cbpp8nyOWEOcZ1IpuCI1g3AbbqS.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\storage\uploads\b6MUpMgJap1N7cbpp8nyOWEOcZ1IpuCI1g3AbbqS.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/MacBook Pro.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\MacBook Pro.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/apple.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\apple.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/android.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\android.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/react.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\react.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/coffe.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\coffe.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/services/connectdevelop.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\services\connectdevelop.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/portfolio/2.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\portfolio\2.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/portfolio/3.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\portfolio\3.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/team/1.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\team\1.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/team/2.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\team\2.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/team/3.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\team\3.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/iPhone 12 _ 12 Pro.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\iPhone 12 _ 12 Pro.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/page/bro.png
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\page\bro.png
+Content Type: image/png
+
+Uri: http://www.ulasoft.uz/usoft/images/works/1.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\works\1.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/works/2.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\works\2.svg
+Content Type: image/svg+xml
+
+Uri: http://www.ulasoft.uz/usoft/images/works/3.svg
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\usoft\images\works\3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.google.com/maps/place/Usoft+-+Разработка+сайтов+и+Мобильных+приложений+в+Ташкенте/@41.3005851,69.269403,19z/data=!3m1!4b1!4m5!3m4!1s0x38ae8bb57e24d1c9:0xf548ddd800cca44f!8m2!3d41.3005717!4d69.2699264?hl=ru-KG&shorturl=1
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\maps\place\Usoft - Разработка сайтов и Мобильных приложений в Ташкенте\@41.3005851,69.269403,19z\data=!3m1!4b1!4m5!3m4!1s0x38ae8bb57e24d1c90xf548ddd800cca44f!8m2!3d41.3005717!4d69.2699264.html
+Content Type: text/html
+
+Uri: https://unpkg.com/swiper@7.3.1/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.ulasoft.uz\swiper@7.3.1\swiper-bundle.min.js
+Content Type: application/javascript
+
