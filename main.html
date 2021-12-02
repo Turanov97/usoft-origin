@@ -1,8 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(86734375, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/86734375" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
@@ -10,14 +27,14 @@
     <meta name="csrf-token" content="Qi9CR1QWbDxfYjEcRthAE42IKVgFhkKzlR89k3W3">
     <link rel="icon" href="/usoft/images/g10.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/usoft/css/style.css">
     <title>Usoft</title>
@@ -25,138 +42,143 @@
 
 <body>
 
-<!-- my modal -->
-<div class="none">
-    <div class="back">
-        <div class="message_modal">
-            <h2>Спасибо, что обратились к нам</h2>
-            <p>Ваша заявка была отправлена, наши специалисты обязательно свяжутся с вами по указанным данным в ближайшее время !</p>
-            <button type="button" class="btn modal__btn modal--btn m_close">Ок</button>
+    <!-- my modal -->
+    <div class="none">
+        <div class="back">
+            <div class="message_modal">
+                <h2>Спасибо, что обратились к нам</h2>
+                <p>Ваша заявка была отправлена, наши специалисты обязательно свяжутся с вами по указанным данным в
+                    ближайшее время !</p>
+                <button type="button" class="btn modal__btn modal--btn m_close">Ок</button>
+            </div>
         </div>
     </div>
-</div>
 
 
-<!-- header -->
-<div class="container">
-    <header class="header">
-        <nav class="navbar">
-            <a href="http://www.ulasoft.uz" class="nav-logo"><img src="/usoft/images/logo-black.svg" class="w-100" alt=""></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="http://www.ulasoft.uz" class="nav-link">Главная</a>
-                    <span class="border1"></span>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.ulasoft.uz/service" class="nav-link">Услуги</a>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.ulasoft.uz/about" class="nav-link">О Компании</a>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.ulasoft.uz/portfolio" class="nav-link">Работы</a>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.ulasoft.uz/contact" class="nav-link">Контакты</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="dropdown">
-                <ul class="lang">
-                    <li><a                            class="active_lang"
-                                                      href="http://www.ulasoft.uz/locale/ru">Ru</a></li>
-                    <li><a>|</a></li>
-                    <li><a  href="http://www.ulasoft.uz/locale/uz">Uz</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <a id="app__btn" class="app__btn app__btn__header" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                   type="submit">Сделать заказ</a>
-
-            </div>
-
-        </nav>
-    </header>
-</div>
-
-
-<div style="display: none" class="usoft_modal_form">
-    <div class="form_block">
-        <button id="modal_close_button" class="modal_close">✖</button>
-        <h3>Связаться со специалистом</h3>
-        <div class="form">
-            <div class="field_group">
-                <label>ВАШЕ ИМЯ:</label>
-                <input type="text" id="modal_name" placeholder="Имя">
-                <span style="color: red!important;font-size: 14px; display: none" id="name_modal_error" class="text-danger error-text"></span>
-            </div>
-            <div class="field_group">
-                <label>НОМЕР ТЕЛЕФОНА:</label>
-                <input type="text" id="modal_number" placeholder="Введите номер телефона" class="phone-number-input">
-                <span style="color: red!important;font-size: 14px; display: none" id="number_modal_error" class="text-danger error-text"></span>
-            </div>
-            <button data-url="http://www.ulasoft.uz/bid-modal" class="mbtn">Отправить</button>
-        </div>
-    </div>
-</div>
-
-
-
-<!-- intro -->
-<section class="section intro--section ">
+    <!-- header -->
     <div class="container">
-        <div class="intro">
-            <div class="intro__content col-6">
-                <div class="intro__title" style="font-size: 39px">Создаем сайты, которые работают на ваш Бизнес</div>
-                <div class="  col-11">
+        <header class="header">
+            <nav class="navbar">
+                <a href="http://www.ulasoft.uz" class="nav-logo"><img src="/usoft/images/logo-black.svg" class="w-100"
+                        alt=""></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="http://www.ulasoft.uz" class="nav-link">Главная</a>
+                        <span class="border1"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.ulasoft.uz/service" class="nav-link">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.ulasoft.uz/about" class="nav-link">О Компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.ulasoft.uz/portfolio" class="nav-link">Работы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.ulasoft.uz/contact" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="dropdown">
+                    <ul class="lang">
+                        <li><a class="active_lang" href="http://www.ulasoft.uz/locale/ru">Ru</a></li>
+                        <li><a>|</a></li>
+                        <li><a href="http://www.ulasoft.uz/locale/uz">Uz</a></li>
+                    </ul>
+                </div>
 
-                    <div class="swiper mySwiper card__width">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="new__btn">
-                                    <a href="http://www.ulasoft.uz/service-show/3" class="new__item">
-                                        <div class="new__title">
-                                            Разработка веб сайтов
-                                        </div>
-                                        <img class="new__img" src="/usoft/images/btn/1.svg" alt="">
-                                    </a>
+                <div>
+                    <a id="app__btn" class="app__btn app__btn__header" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" type="submit">Сделать заказ</a>
 
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="new__btn">
-                                    <a href="http://www.ulasoft.uz/service-show/4" class="new__item">
-                                        <div class="new__title">
-                                            Автоматизация систем
-                                        </div>
-                                        <img class="new__img" src="/usoft/images/btn/cuate.svg" alt="">
-                                    </a>
+                </div>
 
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="new__btn">
-                                    <a href="http://www.ulasoft.uz/service-show/6" class="new__item">
-                                        <div class="new__title">
-                                            Мобильные приложение
-                                        </div>
-                                        <img class="new__img" src="/usoft/images/btn/mobile.svg" alt="">
-                                    </a>
+            </nav>
+        </header>
+    </div>
 
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="swiper-pagination"></div>
+    <div style="display: none" class="usoft_modal_form">
+        <div class="form_block">
+            <button id="modal_close_button" class="modal_close">✖</button>
+            <h3>Связаться со специалистом</h3>
+            <div class="form">
+                <div class="field_group">
+                    <label>ВАШЕ ИМЯ:</label>
+                    <input type="text" id="modal_name" placeholder="Имя">
+                    <span style="color: red!important;font-size: 14px; display: none" id="name_modal_error"
+                        class="text-danger error-text"></span>
+                </div>
+                <div class="field_group">
+                    <label>НОМЕР ТЕЛЕФОНА:</label>
+                    <input type="text" id="modal_number" placeholder="Введите номер телефона"
+                        class="phone-number-input">
+                    <span style="color: red!important;font-size: 14px; display: none" id="number_modal_error"
+                        class="text-danger error-text"></span>
+                </div>
+                <button data-url="http://www.ulasoft.uz/bid-modal" class="mbtn">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- intro -->
+    <section class="section intro--section ">
+        <div class="container">
+            <div class="intro">
+                <div class="intro__content col-6">
+                    <div class="intro__title" style="font-size: 39px">Создаем сайты, которые работают на ваш Бизнес
                     </div>
+                    <div class="  col-11">
+
+                        <div class="swiper mySwiper card__width">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="new__btn">
+                                        <a href="http://www.ulasoft.uz/service-show/3" class="new__item">
+                                            <div class="new__title">
+                                                Разработка веб сайтов
+                                            </div>
+                                            <img class="new__img" src="/usoft/images/btn/1.svg" alt="">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="new__btn">
+                                        <a href="http://www.ulasoft.uz/service-show/4" class="new__item">
+                                            <div class="new__title">
+                                                Автоматизация систем
+                                            </div>
+                                            <img class="new__img" src="/usoft/images/btn/cuate.svg" alt="">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="new__btn">
+                                        <a href="http://www.ulasoft.uz/service-show/6" class="new__item">
+                                            <div class="new__title">
+                                                Мобильные приложение
+                                            </div>
+                                            <img class="new__img" src="/usoft/images/btn/mobile.svg" alt="">
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
 
 
-                    <!--                   <div class="new__btn">
+                        <!--                   <div class="new__btn">
                           <a href="#" class="new__item">
                              <div class="new__title">
                                 Разработка веб сайтов
@@ -165,475 +187,515 @@
                           </a>
 
                        </div> -->
-                    <!-- <a href="#" class="app__btn app__btn--red col-10 ">Разработка веб сайтов</a>
+                        <!-- <a href="#" class="app__btn app__btn--red col-10 ">Разработка веб сайтов</a>
                     <a href="#" class="app__btn app__btn--yellow col-10">Автоматизация систем</a>
                     <a href="#" class="app__btn app__btn--orchid mb-0 col-10">Дополнительные услуги</a> -->
+                    </div>
                 </div>
-            </div>
-            <div class="intro__img col-6">
-                <img src="/usoft/images/intro.svg" alt="">
-            </div>
+                <div class="intro__img col-6">
+                    <img src="/usoft/images/intro.svg" alt="">
+                </div>
 
-        </div><!-- intro -->
-    </div><!-- container -->
-</section>
+            </div><!-- intro -->
+        </div><!-- container -->
+    </section>
 
-<section class="section section__bottom">
-    <div class="container">
-        <div class="section__title">
-            Разработка сайтов
-        </div>
-
-        <div class="team__inner row justify-content-md-center">
-            <div class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/9SrFC9Dxi5nTxkjjDDjNMkGT9TMrX51BrpCxg35G.svg" alt=""></div>
-                <div class="team__title">
-                    Интернет-магазин
-                </div>
-                <div class="team__text">
-                    Интернет-магазин —- Создаем интернет-магазины, которые выдерживают ежедневную нагрузку в 100,000 пользователей
-                </div>
-            </div>
-            <div class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/wucO0btV1AvmNqdAYVpjB6YPd1BIhpyTJZgAjx0v.svg" alt=""></div>
-                <div class="team__title">
-                    Корпоративный сайт
-                </div>
-                <div class="team__text">
-                    Корпоративный сайт — Создаем цифровой офис компании для круглосуточного приема заявок
-                </div>
-            </div>
-            <div class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/wazZY8irBhMH8DNMQIQJzG2m5FW87x2RSnyW5pmZ.svg" alt=""></div>
-                <div class="team__title">
-                    Разработка сайтов на 1c Bitrix
-                </div>
-                <div class="team__text">
-                    Разработка сайтов на 1c Bitrix —- Создаем сайты на 1С-Битрикс: управлением сайтом
-                </div>
+    <section class="section section__bottom">
+        <div class="container">
+            <div class="section__title">
+                Разработка сайтов
             </div>
 
-        </div>
-    </div><!-- CONTAINER -->
-</section>
-<section class="order__btn">
-    <button id="order_btn" class="app__btn app__btn--red   col-md-6 col-sm-12 col-xs-10 ">Заказать </button>
-</section>
-<section class="section section__top">
-    <div class="container">
-        <div class="section__title">
-            Только у нас!
-        </div>
-
-        <div class="works row">
-            <div class=" col-12 col-sm-6">
-                <div class="works__item">
-                    <div class="works__img"><img src="/storage/uploads/K98uMyAtJSCPodkilxuHmyj5tvarh4DqIhjZQrXF.svg" alt=""></div>
-                    <div class="works__content">
-                        <div class="works__title">
-                            Минимальные сроки
-                        </div>
-                        <div class="works__text">
-                            Настроенный процесс создания сайтов позволяет сократить время реализации проекта с сохранением индивидуального подхода
-                        </div>
+            <div class="team__inner row justify-content-md-center">
+                <div class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/9SrFC9Dxi5nTxkjjDDjNMkGT9TMrX51BrpCxg35G.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Интернет-магазин
+                    </div>
+                    <div class="team__text">
+                        Интернет-магазин —- Создаем интернет-магазины, которые выдерживают ежедневную нагрузку в 100,000
+                        пользователей
+                    </div>
+                </div>
+                <div class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/wucO0btV1AvmNqdAYVpjB6YPd1BIhpyTJZgAjx0v.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Корпоративный сайт
+                    </div>
+                    <div class="team__text">
+                        Корпоративный сайт — Создаем цифровой офис компании для круглосуточного приема заявок
+                    </div>
+                </div>
+                <div class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/wazZY8irBhMH8DNMQIQJzG2m5FW87x2RSnyW5pmZ.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Разработка сайтов на 1c Bitrix
+                    </div>
+                    <div class="team__text">
+                        Разработка сайтов на 1c Bitrix —- Создаем сайты на 1С-Битрикс: управлением сайтом
                     </div>
                 </div>
 
             </div>
-            <div class=" col-12 col-sm-6">
-                <div class="works__item">
-                    <div class="works__img"><img src="/storage/uploads/FyBrCp8LxhYq2IoTAJkbpF2Yjxv0gtaXAc3YY2r7.svg" alt=""></div>
-                    <div class="works__content">
-                        <div class="works__title">
-                            Доступные цены
-                        </div>
-                        <div class="works__text">
-                            Веб-Центр ценит и экономит ресурсы клиента.
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-12 col-sm-6">
-                <div class="works__item">
-                    <div class="works__img"><img src="/storage/uploads/FuKaZDEax9uYg080j8RXp90nqnMiGnqQRI8GJw4j.svg" alt=""></div>
-                    <div class="works__content">
-                        <div class="works__title">
-                            Адаптивный дизайн
-                        </div>
-                        <div class="works__text">
-                            Автоматическая адаптация сайта во всех браузерах и на всех устройствах
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-12 col-sm-6">
-                <div class="works__item">
-                    <div class="works__img"><img src="/storage/uploads/3vGoQ1ejiS9A1XJpZb6XnLlwkslx6CzCzoZX4JO4.svg" alt=""></div>
-                    <div class="works__content">
-                        <div class="works__title">
-                            Простота управления сайтом
-                        </div>
-                        <div class="works__text">
-                            Вам не придется целый день разбираться в системе управления чтобы обновить текст на страницах или добавить новые фото. В нашей системе управления сайтом все максимально просто.
-                        </div>
-                    </div>
-                </div>
-
+        </div><!-- CONTAINER -->
+    </section>
+    <section class="order__btn">
+        <button id="order_btn" class="app__btn app__btn--red   col-md-6 col-sm-12 col-xs-10 ">Заказать </button>
+    </section>
+    <section class="section section__top">
+        <div class="container">
+            <div class="section__title">
+                Только у нас!
             </div>
 
-        </div><!-- works -->
-    </div><!-- container -->
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section__title">
-            Портфолио
-        </div>
-        <div class="section__text">
-            Это многостраничный сайт, на котором размещена информация о компании, услугах/товарах, контактные данные. Может содержать несколько разделов и подразделов, на нем размещаются тексты, фотографии и видео-материалы. Носит, по большей части, информационный характер.
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="portfolio">
-    <div class="container">
-        <nav>
-            <div class="nav nav-tabs servisec__btn" id="nav-tab" role="tablist">
-                <button class="nav-link active servisec__btn__item--red" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Веб-разработка</button>
-                <button class="nav-link servisec__btn__item--yellow" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Разработка мобильных приложений</button>
-                <button class="nav-link servisec__btn__item--orchid" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Дизайн</button>
-            </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <div class="row">
-                    <div class="col-sm-4 pb-4">
-                        <div class="portfolio__inner">
-                            <div class="portfolio__img">
-                                <img src="/storage/uploads/Qm6ThcA1cEzQGyVuWvE3AkQB3Ny4WQLl0AANlifQ.jpg" alt="">
+            <div class="works row">
+                <div class=" col-12 col-sm-6">
+                    <div class="works__item">
+                        <div class="works__img"><img src="/storage/uploads/K98uMyAtJSCPodkilxuHmyj5tvarh4DqIhjZQrXF.svg"
+                                alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Минимальные сроки
                             </div>
-                            <div class="portfolio__text">
-                                <a href="http://www.ulasoft.uz/portfolio/2">
-                                    24SEVEN.UZ
-                                </a>
+                            <div class="works__text">
+                                Настроенный процесс создания сайтов позволяет сократить время реализации проекта с
+                                сохранением индивидуального подхода
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8">
-                        <div class="row h-100">
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/RRXn63OgIB4TDXXnNsaF1ohz8benB5gCv4UGGZyt.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/3">
-                                            ALUTEX.UZ
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/dbSilnPw7KjKHGq9MAxhG9yH3h1e4mGMq8YzPjBf.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/4">
-                                            web3
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-4">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/Zy7cf00qzmYxowVApAYWoE67k3PPQS3wvr7cb3sX.png" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/5">
-                                            web4
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-            </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="row h-100">
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/IsqtpzAljmT9OwptkUVDuYhQwl5tuH58itQHZdCl.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/6">
-                                            mob_app1
-                                        </a>
-                                    </div>
-                                </div>
+                <div class=" col-12 col-sm-6">
+                    <div class="works__item">
+                        <div class="works__img"><img src="/storage/uploads/FyBrCp8LxhYq2IoTAJkbpF2Yjxv0gtaXAc3YY2r7.svg"
+                                alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Доступные цены
                             </div>
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/NejRORhoXS4xNDXrGm6aFutk3i2C6skb3Kz1mzjC.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/7">
-                                            mob_app2
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-3 pb-4">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/4YK69DxdaMzEetOTZcgsBMp3gAiLC4e2mkifWBaG.png" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/8">
-                                            mob_app3
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="works__text">
+                                Веб-Центр ценит и экономит ресурсы клиента.
                             </div>
                         </div>
                     </div>
-                    <div class=" col-sm-4 px-3 mb-sm-0 mb-4">
-                        <div class="portfolio__inner">
-                            <div class="portfolio__img">
-                                <img src="/storage/uploads/tkZGbEC2DHRMerGOlzNeAA3cU6N6kWaVMuKklg5y.jpg" alt="">
-                            </div>
-                            <div class="portfolio__text">
-                                <a href="http://www.ulasoft.uz/portfolio/9">
-                                    mob_app4
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-            </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="row h-100">
-                            <div class="col-12 p-3 pb-4">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/0jQHImR3JaJMcv14k8orrpvPRmHBXnI7QTSPesbb.png" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/10">
-                                            design1
-                                        </a>
-                                    </div>
-                                </div>
+                <div class=" col-12 col-sm-6">
+                    <div class="works__item">
+                        <div class="works__img"><img src="/storage/uploads/FuKaZDEax9uYg080j8RXp90nqnMiGnqQRI8GJw4j.svg"
+                                alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Адаптивный дизайн
                             </div>
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/cwVYfg7PuGnrkDr5nf30ns4kgaCpQLZvqhqgi14m.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/11">
-                                            design2
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="portfolio__inner">
-                                    <div class="portfolio__img">
-                                        <img src="/storage/uploads/1RM0Oli9XKFUHHzMNiVn5EEFojeOSjpY7TWdY5Nw.jpg" alt="">
-                                    </div>
-                                    <div class="portfolio__text">
-                                        <a href="http://www.ulasoft.uz/portfolio/12">
-                                            design3
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="works__text">
+                                Автоматическая адаптация сайта во всех браузерах и на всех устройствах
                             </div>
                         </div>
                     </div>
-                    <div class=" col-sm-4 px-3 pt-3 mb-sm-0 mb-4">
-                        <div class="portfolio__inner">
-                            <div class="portfolio__img">
-                                <img src="/storage/uploads/6l4JQVJvjA8OpYJ9hRlPT6PiVoTyXiTBoo7k5aAO.jpg" alt="">
-                            </div>
-                            <div class="portfolio__text">
-                                <a href="http://www.ulasoft.uz/portfolio/13">
-                                    design4
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
+                <div class=" col-12 col-sm-6">
+                    <div class="works__item">
+                        <div class="works__img"><img src="/storage/uploads/3vGoQ1ejiS9A1XJpZb6XnLlwkslx6CzCzoZX4JO4.svg"
+                                alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Простота управления сайтом
+                            </div>
+                            <div class="works__text">
+                                Вам не придется целый день разбираться в системе управления чтобы обновить текст на
+                                страницах или добавить новые фото. В нашей системе управления сайтом все максимально
+                                просто.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- works -->
+        </div><!-- container -->
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section__title">
+                Портфолио
+            </div>
+            <div class="section__text">
+                Это многостраничный сайт, на котором размещена информация о компании, услугах/товарах, контактные
+                данные. Может содержать несколько разделов и подразделов, на нем размещаются тексты, фотографии и
+                видео-материалы. Носит, по большей части, информационный характер.
             </div>
         </div>
-    </div>
-</section><!-- portfolio -->
+    </section>
 
 
-<section class="section">
-    <div class="container">
-        <div class="section__title">
-            Наши Услуги
-        </div>
-        <div class="team__inner row justify-content-md-center">
-            <a href="http://www.ulasoft.uz/service-show/3" class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg" alt=""></div>
-                <div class="team__title">
-                    Разработка веб сайтов
+
+
+    <section class="portfolio">
+        <div class="container">
+            <nav>
+                <div class="nav nav-tabs servisec__btn" id="nav-tab" role="tablist">
+                    <button class="nav-link active servisec__btn__item--red" id="nav-home-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                        aria-selected="true">Веб-разработка</button>
+                    <button class="nav-link servisec__btn__item--yellow" id="nav-profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                        aria-selected="false">Разработка мобильных приложений</button>
+                    <button class="nav-link servisec__btn__item--orchid" id="nav-contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                        aria-selected="false">Дизайн</button>
                 </div>
-                <div class="team__text">
-                    Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
-                </div>
-            </a>
-            <a href="http://www.ulasoft.uz/service-show/4" class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg" alt=""></div>
-                <div class="team__title">
-                    Автоматизация бизнеса
-                </div>
-                <div class="team__text">
-                    Свой большой опыт разработки web-проектов автоматизации бизнес-процессов взаимодействия с клиентами и партнерами мы перенесли на создание решений, помогающих организовать работу внутри компании.
-                </div>
-            </a>
-            <a href="http://www.ulasoft.uz/service-show/6" class="team__item col-lg-4 col-md-6 col-12 ">
-                <div class="team__img"><img src="/storage/uploads/uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg" alt=""></div>
-                <div class="team__title">
-                    Разработка мобильных приложение
-                </div>
-                <div class="team__text">
-                    Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
-                </div>
-            </a>
-
-        </div>
-
-    </div><!-- container -->
-
-</section><!-- section -->
-
-
-
-
-
-<section class="project">
-    <div class="container">
-        <div class="row">
-            <div class="project__inner">
-                <div class="row w-100">
-                    <div class="project__item col-md-6 col-sm-12 mb-3">
-                        <div class="project__title">Остались вопросы касательно проекта?</div>
-                        <div class="project__text">
-                            Оставьте заявку и мы свяжемся с вами уже сегодня! Проведем консультацию и оценим ваш проект абсолютно бесплатно
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row">
+                        <div class="col-sm-4 pb-4">
+                            <div class="portfolio__inner">
+                                <div class="portfolio__img">
+                                    <img src="/storage/uploads/Qm6ThcA1cEzQGyVuWvE3AkQB3Ny4WQLl0AANlifQ.jpg" alt="">
+                                </div>
+                                <div class="portfolio__text">
+                                    <a href="http://www.ulasoft.uz/portfolio/2">
+                                        24SEVEN.UZ
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="row h-100">
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/RRXn63OgIB4TDXXnNsaF1ohz8benB5gCv4UGGZyt.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/3">
+                                                ALUTEX.UZ
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/dbSilnPw7KjKHGq9MAxhG9yH3h1e4mGMq8YzPjBf.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/4">
+                                                web3
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/Zy7cf00qzmYxowVApAYWoE67k3PPQS3wvr7cb3sX.png"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/5">
+                                                web4
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div id="form_block" class="project__item col-md-6 col-sm-12">
-                        <form class="form col-12 col-md-10">
-                            <div class="form__group">
-                                <span style="color: red!important;font-size: 14px; display: none" id="name_error" class="text-danger error-text"></span>
-                                <input placeholder="Имя" type="text"  name="name" id="name" class="form__input">
-
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="row h-100">
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/IsqtpzAljmT9OwptkUVDuYhQwl5tuH58itQHZdCl.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/6">
+                                                mob_app1
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/NejRORhoXS4xNDXrGm6aFutk3i2C6skb3Kz1mzjC.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/7">
+                                                mob_app2
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-3 pb-4">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/4YK69DxdaMzEetOTZcgsBMp3gAiLC4e2mkifWBaG.png"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/8">
+                                                mob_app3
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form__group">
-                                <span style="color: red!important;font-size: 14px; display: none" id="number_error" class="text-danger error-text"></span>
-                                <input placeholder="+998 (XX) XXX XX XX" type="text" name="number" id="number" class="form__input phone-number-input">
+                        </div>
+                        <div class=" col-sm-4 px-3 mb-sm-0 mb-4">
+                            <div class="portfolio__inner">
+                                <div class="portfolio__img">
+                                    <img src="/storage/uploads/tkZGbEC2DHRMerGOlzNeAA3cU6N6kWaVMuKklg5y.jpg" alt="">
+                                </div>
+                                <div class="portfolio__text">
+                                    <a href="http://www.ulasoft.uz/portfolio/9">
+                                        mob_app4
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="row h-100">
+                                <div class="col-12 p-3 pb-4">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/0jQHImR3JaJMcv14k8orrpvPRmHBXnI7QTSPesbb.png"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/10">
+                                                design1
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/cwVYfg7PuGnrkDr5nf30ns4kgaCpQLZvqhqgi14m.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/11">
+                                                design2
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="portfolio__inner">
+                                        <div class="portfolio__img">
+                                            <img src="/storage/uploads/1RM0Oli9XKFUHHzMNiVn5EEFojeOSjpY7TWdY5Nw.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <a href="http://www.ulasoft.uz/portfolio/12">
+                                                design3
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-4 px-3 pt-3 mb-sm-0 mb-4">
+                            <div class="portfolio__inner">
+                                <div class="portfolio__img">
+                                    <img src="/storage/uploads/6l4JQVJvjA8OpYJ9hRlPT6PiVoTyXiTBoo7k5aAO.jpg" alt="">
+                                </div>
+                                <div class="portfolio__text">
+                                    <a href="http://www.ulasoft.uz/portfolio/13">
+                                        design4
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- portfolio -->
 
-                                <button data-url="http://www.ulasoft.uz/bid" class="form__button bid col-12"
+
+    <section class="section">
+        <div class="container">
+            <div class="section__title">
+                Наши Услуги
+            </div>
+            <div class="team__inner row justify-content-md-center">
+                <a href="http://www.ulasoft.uz/service-show/3" class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Разработка веб сайтов
+                    </div>
+                    <div class="team__text">
+                        Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до
+                        Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
+                    </div>
+                </a>
+                <a href="http://www.ulasoft.uz/service-show/4" class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Автоматизация бизнеса
+                    </div>
+                    <div class="team__text">
+                        Свой большой опыт разработки web-проектов автоматизации бизнес-процессов взаимодействия с
+                        клиентами и партнерами мы перенесли на создание решений, помогающих организовать работу внутри
+                        компании.
+                    </div>
+                </a>
+                <a href="http://www.ulasoft.uz/service-show/6" class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="/storage/uploads/uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Разработка мобильных приложение
+                    </div>
+                    <div class="team__text">
+                        Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до
+                        Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
+                    </div>
+                </a>
+
+            </div>
+
+        </div><!-- container -->
+
+    </section><!-- section -->
+
+
+
+
+
+    <section class="project">
+        <div class="container">
+            <div class="row">
+                <div class="project__inner">
+                    <div class="row w-100">
+                        <div class="project__item col-md-6 col-sm-12 mb-3">
+                            <div class="project__title">Остались вопросы касательно проекта?</div>
+                            <div class="project__text">
+                                Оставьте заявку и мы свяжемся с вами уже сегодня! Проведем консультацию и оценим ваш
+                                проект абсолютно бесплатно
+                            </div>
+                        </div>
+                        <div id="form_block" class="project__item col-md-6 col-sm-12">
+                            <form class="form col-12 col-md-10">
+                                <div class="form__group">
+                                    <span style="color: red!important;font-size: 14px; display: none" id="name_error"
+                                        class="text-danger error-text"></span>
+                                    <input placeholder="Имя" type="text" name="name" id="name" class="form__input">
+
+                                </div>
+                                <div class="form__group">
+                                    <span style="color: red!important;font-size: 14px; display: none" id="number_error"
+                                        class="text-danger error-text"></span>
+                                    <input placeholder="Введите номер телефона" type="text" name="number" id="number"
+                                        class="form__input phone-number-input">
+
+                                    <button data-url="http://www.ulasoft.uz/bid" class="form__button bid col-12"
                                         type="button">Заказать сайт</button>
 
 
-                            </div>
-                        </form>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- project__inner -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- project -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <div class="footer__logo"><img src="/usoft/images/logo-black.svg" alt=""></div>
+                    <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames.</div>
+                    <div class="footer__icon">
+                        <a href="https://www.facebook.com/umbrellasoftuz"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/usoft-round-umbrella-llc"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-            </div><!-- project__inner -->
-        </div><!-- row -->
-    </div><!-- container -->
-</section><!-- project -->
+                <div class="footer__item">
+                    <div class="footer__title ">Наши услуги</div>
+                    <p>
+                        <a href="http://www.ulasoft.uz/website">Разработка сайтов</a>
+                    </p>
+                    <p>
+                        <a href="http://www.ulasoft.uz/mobile-app">Разработка мобильных приложение</a>
+                    </p>
+                    <p>
+                        <a href="http://www.ulasoft.uz/automation">Автоматизация бизнеса</a>
+                    </p>
 
-<section class="footer">
-    <div class="container">
-        <div class="footer__inner">
-            <div class="footer__item">
-                <div class="footer__logo"><img src="/usoft/images/logo-black.svg" alt=""></div>
-                <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames.</div>
-                <div class="footer__icon">
-                    <a href="https://www.facebook.com/umbrellasoftuz"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.linkedin.com/company/usoft-round-umbrella-llc"><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
                 </div>
-            </div>
-            <div class="footer__item">
-                <div class="footer__title ">Наши услуги</div>
-                <p>
-                    <a href="http://www.ulasoft.uz/website">Разработка сайтов</a>
-                </p>
-                <p>
-                    <a href="http://www.ulasoft.uz/mobile-app">Разработка мобильных приложение</a>
-                </p>
-                <p>
-                    <a href="http://www.ulasoft.uz/automation">Автоматизация бизнеса</a>
-                </p>
+                <div class="footer__item footer__item--phone">
+                    <div class="footer__title">Наши контакты</div>
+                    <div class="footer__contet">
+                        <a href="#"><img src="/usoft/images/footer/1.svg" alt=""></a>
+                        <div class="footer__phone">
 
-            </div>
-            <div class="footer__item footer__item--phone">
-                <div class="footer__title">Наши контакты</div>
-                <div class="footer__contet">
-                    <a href="#"><img src="/usoft/images/footer/1.svg" alt=""></a>
-                    <div class="footer__phone">
+                            <a href="tel:+998 90 965 76 34">+998 90 965 76 34</a>
 
-                        <a href="tel:+998 90 965 76 34">+998 90 965 76 34</a>
-
-                        <a href="tel:+998 71 200 12 00">+998 71 200 12 00</a>
+                            <a href="tel:+998 71 200 12 00">+998 71 200 12 00</a>
+                        </div>
                     </div>
-                </div>
-                <div class="footer__contet">
-                    <a href="#"><img src="/usoft/images/footer/2.svg" alt=""></a>
-                    <div class="footer__phone">
-                        <a href="https://goo.gl/maps/TBa6QBmXKyEKb25p8" target="blank">
-                            Ташкент, ул, Афросиоб 6/1 Ор-р: Напротив Корейского посольства
+                    <div class="footer__contet">
+                        <a href="#"><img src="/usoft/images/footer/2.svg" alt=""></a>
+                        <div class="footer__phone">
+                            <a href="https://goo.gl/maps/TBa6QBmXKyEKb25p8" target="blank">
+                                Ташкент, ул, Афросиоб 6/1 Ор-р: Напротив Корейского посольства
 
-                        </a>
+                            </a>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
-<footer class="copyright">
-    ©Usoft 2009-2021
-</footer>
+    <footer class="copyright">
+        ©Usoft 2009-2021
+    </footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-<script src="/usoft/Js/jquery.maskedinput.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/usoft/Js/jquery.maskedinput.min.js"></script>
 
-<script src="/usoft/Js/app.js"></script>
+    <script src="/usoft/Js/app.js"></script>
 </body>
 
 </html>
