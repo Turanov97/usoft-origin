@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="csrf-token" content="rz82pKELOfLApI9289faebdiR7cjHtPjfddDl8OT">
+   <link rel="icon" href="../usoft/images/g10.svg">
+   <link href="../npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="../swiper@7.3.1/swiper-bundle.min.css">
+   <link href="../releases/v5.0.13/css/all.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+   <link href="../css2.css?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="../swiper@7.3.1/swiper-bundle.min.css">
+   <link rel="stylesheet" href="../usoft/css/style.css">
+   <title>Usoft</title>
+</head>
+
+<body>
+
+   <!-- my modal -->
+   <div class="none">
+      <div class="back">
+         <div class="message_modal">
+            <h2>Biz bilan bog&#039;langaningiz uchun tashakkur</h2>
+            <p>Sizning arizangiz yuborildi, bizning mutaxassislarimiz ko&#039;rsatilgan ma&#039;lumotlar bilan imkon
+               qadar tezroq siz bilan bog&#039;lanadi!</p>
+            <button type="button" class="btn modal__btn modal--btn m_close">Ок</button>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- header -->
+   <div class="container">
+      <header class="header">
+         <nav class="navbar">
+            <a href="../index.htm" class="nav-logo"><img src="../usoft/images/logo-black.svg" class="w-100" alt=""></a>
+            <ul class="nav-menu">
+               <li class="nav-item">
+                  <a href="../index.htm" class="nav-link">Главная</a>
+               </li>
+               <li class="nav-item">
+                  <a href="../service.html" class="nav-link">Услуги</a>
+                  <span class="border1"></span>
+               </li>
+               <li class="nav-item">
+                  <a href="../about.html" class="nav-link">О компании</a>
+               </li>
+               <li class="nav-item">
+                  <a href="../portfolio.html" class="nav-link">Работы</a>
+               </li>
+               <li class="nav-item">
+                  <a href="../contact.html" class="nav-link">Контакты</a>
+               </li>
+            </ul>
+            <div class="hamburger">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+            <div class="dropdown">
+               <ul class="lang">
+                  <li><a href="../contact.html">Ru</a></li>
+                  <li><a>|</a></li>
+                  <li><a class="active_lang" href="../contact.html">Uz</a></li>
+               </ul>
+            </div>
+
+            <div>
+               <a id="app__btn" class="app__btn app__btn__header" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  type="submit">Сделать заказ</a>
+
+            </div>
+
+         </nav>
+      </header>
+   </div>
+
+
+   <div style="display: none" class="usoft_modal_form">
+      <div class="form_block">
+         <button id="modal_close_button" class="modal_close">✖</button>
+         <h3>Mutaxassis bilan bog&#039;lanish</h3>
+         <div class="form">
+            <div class="field_group">
+               <label>ISMINGIZ:</label>
+               <input type="text" id="modal_name" placeholder="Ism">
+               <span style="color: red!important;font-size: 14px; display: none" id="name_modal_error"
+                  class="text-danger error-text"></span>
+            </div>
+            <div class="field_group">
+               <label>TELEFON RAQAMINGIZ:</label>
+               <input type="text" id="modal_number" placeholder="+998 99 999 99 99" class="phone-number-input">
+               <span style="color: red!important;font-size: 14px; display: none" id="number_modal_error"
+                  class="text-danger error-text"></span>
+            </div>
+            <button data-url="http://www.ulasoft.uz/bid-modal" class="mbtn">Yuborish</button>
+         </div>
+      </div>
+   </div>
+
+
+
+
+   <div class=" section--chit">
+      <ul class="breadcrumb">
+         <div class="container">
+            <li><a href="../index.htm">Главная</a></li>
+            <li>
+               <a>
+                  <span>
+                     Разработка сайтов на 1c Bitrix
+                  </span>
+               </a>
+            </li>
+         </div>
+      </ul>
+   </div>
+
+
+   <!--  -->
+
+   <!-- intro -->
+   <section class=" section__mobile  ">
+      <div class="container">
+         <div class="intro intro--mobile">
+            <div class="intro__content intro__content--mobile col-md-7 ">
+               <div class="intro__title intro__title--mobile">
+                  Разработка сайтов на 1c Bitrix
+               </div>
+               <div class="intro__text intro--text--mobile col-11  ">
+                  Создание сайтов на 1С-Битрикс: Управление сайтом
+               </div>
+               <button id="order_btn" class="app__btn app__btn--red   col-md-6 col-sm-12 col-xs-10 ">Сделать заказ
+               </button>
+            </div>
+            <div class="intro__img intro__img--mobile col-4">
+               <img src="/usoft/images/webPhoto/3/cuate.svg" alt="">
+            </div>
+
+         </div><!-- intro -->
+      </div><!-- container -->
+   </section>
+
+
+
+   <section class="section ">
+      <div class="container">
+         <div class="section__text">
+            Bitrix — одна из самых широко распространенных систем управления сайтами. Она постоянно модернизируется и
+            характеризуется надежностью. В отличие от многих конкурентов данная CMS имеет хорошую техническую поддержку
+            и высокий уровень безопасности. Создание сайта на «Битрикс» — отличный вариант для разработки как
+            одностраничных, так и сложных многофункциональных ресурсов. В данной CMS есть все, что необходимо для
+            эффективного привлечения клиентов!
+         </div>
+
+      </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="works row ">
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w  h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/1.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Безопасность
+                     </div>
+                     <div class="works__text">
+                        Пожалуй, это ключевое преимущество данной системы управления веб-проектами. Выбирая создание
+                        сайта на «Битрикс», вы получаете по разумной цене ресурс, который устойчив к взлому и другим
+                        видам атак. Данная CMS имеет встроенный модуль «Проактивная защита», который включает в себя
+                        целый ряд технических решений по обеспечению безопасности: фильтр, антивирус, сканер и другие.
+                        CMS регулярно обновляется с учетом появления новых угроз.
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/2.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Удобство управления
+                     </div>
+                     <div class="works__text">
+                        В грамотно настроенной CMS может с легкостью разобраться любой человек, даже не имеющий
+                        спецподготовки. Интуитивно понятный интерфейс и огромное количество подсказок в административной
+                        панели обеспечивают максимально простое управление сайтом, разработка которого была выполнена на
+                        системе «Битрикс». Загружать новые данные, корректировать структуру и внедрять необходимые
+                        функции просто.
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/3.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Техническая поддержка
+                     </div>
+                     <div class="works__text">
+                        Разработка сайта на «1С-Битрикс» позволит вам оперативно получать квалифицированную помощь
+                        компании-разработчика. Время ответа на возникший вопрос зависит от выбранного вами уровня
+                        поддержки. В среднем оператор реагирует в течение 4 часов. При отсутствии активной лицензии
+                        максимальное время ответа может составлять 24 часа. В случае спецобращения оператор реагирует в
+                        течение часа.
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/4.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Высокая производительность
+                     </div>
+                     <div class="works__text">
+                        Система в автоматическом режиме диагностирует работу и выдает рекомендации по улучшению
+                        продуктивности веб-сайта. Интеграция CMS позволяет получить отличные результаты по
+                        быстродействию даже в условиях ограниченности ресурсов. Кроме того, данная система управления
+                        сайтом обеспечивает высокую производительность с огромной посещаемостью и высокими пиковыми
+                        нагрузками.
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/5.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Соответствие требованиям SEO
+                     </div>
+                     <div class="works__text">
+                        Создание ресурса ведется с учетом SEO-требований, благодаря чему его в дальнейшем будет удобно
+                        продвигать в Google и Яндексе.
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class=" col-12 col-sm-6 mb-4 ">
+               <div class="works__item paeg__w h-100 ">
+                  <div class="works__img"><img src="/usoft/images/webPhoto/3/6.svg" alt=""></div>
+                  <div class="works__content">
+                     <div class="works__title">
+                        Широкий функционал
+                     </div>
+                     <div class="works__text">
+                        Разработка сайтов на CMS «Битрикс» предоставляет возможность полной интеграции со стандартными
+                        базами данных.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- works -->
+      </div>
+   </section>
+
+
+   <section class="section">
+      <div class="container">
+         <div class="section__title">
+            Наши Услуги
+         </div>
+         <div class="team__inner row justify-content-md-center">
+            <a href="3.html" class="team__item col-lg-4 col-md-6 col-12 ">
+               <div class="team__img"><img src="../storage/uploads/T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg" alt="">
+               </div>
+               <div class="team__title">
+                  Создание сайтов
+               </div>
+               <div class="team__text">
+                  Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до Интернет-магазинов. А
+                  также контекстное и SEO-продвижение в поисковых системах.
+               </div>
+            </a>
+            <a href="4.html" class="team__item col-lg-4 col-md-6 col-12 ">
+               <div class="team__img"><img src="../storage/uploads/uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg" alt="">
+               </div>
+               <div class="team__title">
+                  Разработка мобильных
+                  приложение
+               </div>
+               <div class="team__text">
+                  Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до Интернет-магазинов. А
+                  также контекстное и SEO-продвижение в поисковых системах.
+               </div>
+            </a>
+            <a href="6.html" class="team__item col-lg-4 col-md-6 col-12 ">
+               <div class="team__img"><img src="../storage/uploads/vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg" alt="">
+               </div>
+               <div class="team__title">
+                  Автоматизация бизнеса
+               </div>
+               <div class="team__text">
+                  Свой большой опыт разработки web-проектов автоматизации бизнес-процессов взаимодействия с клиентами и
+                  партнерами мы перенесли на создание решений, помогающих организовать работу внутри компании.
+               </div>
+            </a>
+
+         </div>
+
+      </div><!-- container -->
+
+   </section><!-- section -->
+
+
+
+   <section class="project">
+      <div class="container">
+         <div class="row">
+            <div class="project__inner">
+               <div class="row w-100">
+                  <div class="project__item col-md-6 col-sm-12 mb-3">
+                     <div class="project__title">Готовы обсудить деталипроекта?</div>
+                     <div class="project__text">
+                        Напишите нам, обсудим детали и уже сегодня , Вы получите готовую смету проекта
+                     </div>
+                  </div>
+                  <div id="form_block" class="project__item col-md-6 col-sm-12">
+                     <form class="form col-12 col-md-10">
+                        <div class="form__group">
+                           <span style="color: red!important;font-size: 14px; display: none" id="name_error"
+                              class="text-danger error-text"></span>
+                           <input placeholder="Имя" type="text" name="name" id="name" class="form__input">
+
+                        </div>
+                        <div class="form__group">
+                           <span style="color: red!important;font-size: 14px; display: none" id="number_error"
+                              class="text-danger error-text"></span>
+                           <input placeholder="+998 (XX) XXX XX XX" type="text" name="number" id="number"
+                              class="form__input phone-number-input">
+
+                           <button data-url="http://www.ulasoft.uz/bid" class="form__button bid col-12"
+                              type="button">Заказать сайт</button>
+
+
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div><!-- project__inner -->
+         </div><!-- row -->
+      </div><!-- container -->
+   </section><!-- project -->
+
+
+   <section class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__item">
+               <div class="footer__logo"><img src="../usoft/images/logo-black.svg" alt=""></div>
+               <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames.</div>
+               <div class="footer__icon">
+                  <a href="../umbrellasoftuz.html"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/company/usoft-round-umbrella-llc"><i
+                        class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+               </div>
+            </div>
+            <div class="footer__item">
+               <div class="footer__title ">Наши услуги</div>
+               <p>
+                  <a href="../website.html">Разработка сайтов</a>
+               </p>
+               <p>
+                  <a href="../mobile-app.html">Разработка мобильных приложение</a>
+               </p>
+               <p>
+                  <a href="../automation.html">Автоматизация бизнеса</a>
+               </p>
+
+            </div>
+            <div class="footer__item footer__item--phone">
+               <div class="footer__title">Наши контакты</div>
+               <div class="footer__contet">
+                  <a href="#"><img src="../usoft/images/footer/1.svg" alt=""></a>
+                  <div class="footer__phone">
+
+                     <a href="tel:+998 90 965 76 34">+998 90 965 76 34</a>
+
+                     <a href="tel:+998 71 200 12 00">+998 71 200 12 00</a>
+                  </div>
+               </div>
+               <div class="footer__contet">
+                  <a href="#"><img src="../usoft/images/footer/2.svg" alt=""></a>
+                  <div class="footer__phone">
+                     <a href="../maps/place/Usoft - Разработка сайтов и Мобильных приложений в Ташкенте/@41.3005851,69.269403,19z/data=!3m1!4b1!4m5!3m4!1s0x38ae8bb57e24d1c90xf548ddd800cca44f!8m2!3d41.3005717!4d69.2699264.html"
+                        target="blank">
+                        Ташкент, ул, Афросиоб 6/1
+
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <footer class="copyright">
+      ©Usoft 2009-2021
+   </footer>
+
+
+   <script src="../ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="../npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+   <script src="../npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+   <script src="../swiper@7.3.1/swiper-bundle.min.js"></script>
+   <script src="../usoft/Js/jquery.maskedinput.min.js"></script>
+
+   <script src="../usoft/Js/app.js"></script>
+</body>
+
+</html>
