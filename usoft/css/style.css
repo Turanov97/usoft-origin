@@ -623,7 +623,8 @@ ul.breadcrumb li a span {
    .intro__img img {
       margin-bottom: 25px;
    }
-/* 
+
+   /* 
    .intro__img--mobile img {
       width: 50% !important;
    } */
@@ -1060,8 +1061,8 @@ ul.breadcrumb li a span {
 }
 
 .intro__img img {
-   width: 100%;
-   height: 360px;
+   width: 400px;
+   height: 460px;
    object-fit: contain;
 }
 
@@ -1102,6 +1103,12 @@ ul.breadcrumb li a span {
 
 .team__img {
    margin-bottom: 23px;
+}
+
+.team__img img {
+   width: 150px;
+   height: 150px;
+   object-fit: contain;
 }
 
 .team__title {
@@ -1917,7 +1924,8 @@ ul.breadcrumb li a span {
    .copyright {
       font-size: 12px;
    }
-   .devices__text{
+
+   .devices__text {
       font-size: 12px !important;
    }
 }
@@ -1940,7 +1948,7 @@ ul.breadcrumb li a span {
    .footer__text {
       font-size: 14px;
    }
-  
+
 
 
 }

@@ -2,40 +2,22 @@
 <html lang="ru">
 
 <head>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(86734375, "init", {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true
-        });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/86734375" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="rz82pKELOfLApI9289faebdiR7cjHtPjfddDl8OT">
-    <link rel="icon" href="usoft/images/g10.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="swiper@7.3.1/swiper-bundle.min.css">
-    <link href="releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="icon" href="../usoft/images/g10.svg">
+    <link href="../npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../swiper@7.3.1/swiper-bundle.min.css">
+    <link href="../releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="css2.css?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap"
+    <link href="../css2.css?family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="swiper@7.3.1/swiper-bundle.min.css">
-    <link rel="stylesheet" href="usoft/css/style.css">
+    <link rel="stylesheet" href="../swiper@7.3.1/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../usoft/css/style.css">
     <title>Usoft</title>
 </head>
 
@@ -58,22 +40,24 @@
     <div class="container">
         <header class="header">
             <nav class="navbar">
-                <a href="index.htm" class="nav-logo"><img src="usoft/images/logo-black.svg" class="w-100" alt=""></a>
+                <a href="../index.htm" class="nav-logo"><img src="../usoft/images/logo-black.svg" class="w-100"
+                        alt=""></a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="index.htm" class="nav-link">Asosiy</a>
+                        <a href="../index.htm" class="nav-link">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a href="service.html" class="nav-link">Xizmatlar</a>
+                        <a href="../service.html" class="nav-link">Услуги</a>
+                        <span class="border1"></span>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">Kompaniya</a>
+                        <a href="../about.html" class="nav-link">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link">Ishlarimiz</a>
+                        <a href="../portfolio.html" class="nav-link">Работы</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Aloqa</a>
+                        <a href="../contact.html" class="nav-link">Контакты</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -83,15 +67,15 @@
                 </div>
                 <div class="dropdown">
                     <ul class="lang">
-                        <li><a href="contact.html">Ru</a></li>
+                        <li><a href="../contact.html">Ru</a></li>
                         <li><a>|</a></li>
-                        <li><a class="active_lang" href="contact.html">Uz</a></li>
+                        <li><a class="active_lang" href="../contact.html">Uz</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <a id="app__btn" class="app__btn app__btn__header" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" type="submit">Buyurtma qilish</a>
+                        data-bs-target="#exampleModal" type="submit">Сделать заказ</a>
 
                 </div>
 
@@ -128,8 +112,15 @@
     <div class=" section--chit">
         <ul class="breadcrumb">
             <div class="container">
-                <li><a href="index.htm">Asosiy</a></li>
-                <li><a><span>Mobil ilovalarni ishlab chiqish</span></a></li>
+                <li><a href="../index.htm">Главная</a></li>
+                <li>
+                    <a>
+                        <span>
+                            Разработка мобильных
+                            приложение
+                        </span>
+                    </a>
+                </li>
             </div>
         </ul>
     </div>
@@ -142,169 +133,218 @@
         <div class="container">
             <div class="intro intro--mobile">
                 <div class="intro__content intro__content--mobile col-md-8 ">
-                    <div class="intro__title intro__title--mobile">Mobil ilovalarni ishlab chiqish</div>
-                    <div class="intro__text intro--text--mobile col-11  ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat ac id sed augue odio cras
-                        justo, id.
-                        Fringilla amet et, blandit sit enim. Amet, vel feugiat mauris urna sit. Sed cursus ultricies
-                        tristique
-                        risus volutpat. Arcu morbi platea sed risus, scelerisque dignissim ullamcorper velit cursus.
+                    <div class="intro__title intro__title--mobile">
+                        Разработка мобильных
+                        приложение
                     </div>
-                    <a href="#" class="app__btn app__btn--red   col-md-6 col-sm-12 col-xs-10 " data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Buyurtma qilish</a>
+                    <div class="intro__text intro--text--mobile col-10  ">
+                        Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до
+                        Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
+                    </div>
+                    <button id="order_btn" class="app__btn app__btn--red   col-md-6 col-sm-12 col-xs-10 ">Заказать
+                    </button>
+
+
                 </div>
                 <div class="intro__img intro__img--mobile col-4">
-                    <img src="usoft/images/iPhone 12 _ 12 Pro.png" alt="">
+                    <img src="/usoft/images/works/work/3/bro.svg" alt="">
                 </div>
 
             </div><!-- intro -->
         </div><!-- container -->
     </section>
-
-
-
     <section class="section">
         <div class="container">
-            <div class="section__title">Bizning xizmatlarimiz</div>
+            <!-- <div class="section__title">
+                Разработка сайтов
+            </div> -->
+            <div class="works row ">
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w  h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/1.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Консалтинг
+                            </div>
+                            <div class="works__text">
+                                Выбор платформы, аналитика и проектирование базовой адаптивной версии сайта или
+                                приложения
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/2.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Контент
+                            </div>
+                            <div class="works__text">
+                                Производство контента: продающих текстов, фото- видеоматериалов, инфографики
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/3.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Дизайн
+                            </div>
+                            <div class="works__text">
+                                Подготовка интерфейсов и внедрение элементов фирменного стиля
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/4.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Проектирование
+                            </div>
+                            <div class="works__text">
+                                На основе концепции проекта мы проектируем графический интерфейс и структуру
+                                программного кода приложения
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/5.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Разработка
+                            </div>
+                            <div class="works__text">
+                                Мобильная разработка для платформ IOS и Android это воплощение приложение в коде, его
+                                тестирование и отладка
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-sm-6 mb-4 ">
+                    <div class="works__item paeg__w h-100 ">
+                        <div class="works__img"><img src="/usoft/images/works/work/3/6.svg" alt=""></div>
+                        <div class="works__content">
+                            <div class="works__title">
+                                Поддержка
+                            </div>
+                            <div class="works__text">
+                                Развитие, мобильная разработка, техническая и информационная поддержка
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- works -->
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="section__title">
+                Какие технологии мы используем
+            </div>
             <div class="section__text">
                 Из приложений B2B или B2E для предприятий, малого бизнеса и стартапов, lorem ipsum dolor sit amet,
                 consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
             </div>
         </div>
     </section>
-
-    <section class="section__pligins">
+    <section>
         <div class="container">
-            <div class="section__icon row justify-content-md-center ">
-                <div class="section__item col-lg-2 col-md-3 col-6">
-                    <a href="#"><img src="usoft/images/services/apple.png" alt=""></a>
-                    <p>
+            <div class="devices">
+                <div class="devices__item col-md-2 col-sm-4 p-5 m-4">
+                    <img class="devices__photo" src="/usoft/images/works/work/1-1/1.svg" alt="">
+                    <div class="devices__text">
                         ios
-                    </p>
+                    </div>
                 </div>
-                <div class="section__item col-lg-2 col-md-3 col-6">
-                    <a href="#"><img src="usoft/images/services/android.png" alt=""></a>
-                    <p>
+                <div class="devices__item col-md-2 col-sm-4 p-5 m-4">
+                    <img class="devices__photo" src="/usoft/images/works/work/1-1/2.svg" alt="">
+                    <div class="devices__text">
                         android
-                    </p>
+                    </div>
                 </div>
-                <div class="section__item col-lg-2 col-md-3 col-6">
-                    <a href="#"><img src="usoft/images/services/react.png" alt=""></a>
-                    <p>
+                <div class="devices__item col-md-2 col-sm-4 p-5 m-4">
+                    <img class="devices__photo" src="/usoft/images/works/work/1-1/3.svg" alt="">
+                    <div class="devices__text">
                         react native
-                    </p>
+                    </div>
                 </div>
-                <div class="section__item col-lg-2 col-md-3 col-6">
-                    <a href="#"><img src="usoft/images/services/coffe.png" alt=""></a>
-                    <p>
+                <div class="devices__item col-md-2 col-sm-4 p-5 m-4">
+                    <img class="devices__photo" src="/usoft/images/works/work/1-1/4.svg" alt="">
+                    <div class="devices__text">
                         hybrid app
-                    </p>
+                    </div>
                 </div>
-                <div class="section__item col-lg-2 col-md-3 col-6">
-                    <a href="#"><img src="usoft/images/services/connectdevelop.png" alt=""></a>
-                    <p>
+                <div class="devices__item col-md-2 col-sm-4 p-5 m-4">
+                    <img class="devices__photo" src="/usoft/images/works/work/1-1/5.svg" alt="">
+                    <div class="devices__text">
                         cross-platform
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="section__title">
-                Bizning eng so&#039;nggi loyihalarimiz
-            </div>
-        </div>
-    </section>
-
-
-    <section class="portfolio">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm-12">
-                    <div class="row h-100 justify-content-center">
-                        <div class=" col-md-4 col-8  px-3 pb-3">
-                            <div class="portfolio__inner">
-                                <div class="portfolio__img">
-                                    <img src="usoft/images/portfolio/2.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-md-4 col-8  px-3 pb-3">
-                            <div class="portfolio__inner">
-                                <div class="portfolio__img">
-                                    <img src="usoft/images/projects/1.jpg" alt="">
-                                </div>
-                                <div class="portfolio__text">
-                                    <a href="portfolio/2.html">alutex.uz</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-md-4 col-8  px-3 pb-3">
-                            <div class="portfolio__inner">
-                                <div class="portfolio__img">
-                                    <img src="usoft/images/portfolio/3.png" alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div><!-- container -->
-    </section><!-- portfolio -->
-
-
-
-    <section class="section">
+        </div>
+    </section>
+    <section class="section__mobile">
         <div class="container">
             <div class="section__title">
-                Boshqa xizmatlar
+                Наши Услуги
             </div>
-
-
             <div class="team__inner row justify-content-md-center">
-                <a href="webdevelopment.html" class="team__item col-lg-4 col-md-6 col-12 ">
-                    <div class="team__img"><img src="usoft/images/team/1.svg" alt=""></div>
-                    <div class="team__title">Veb-sayt ishlab chiqish</div>
-                    <div class="team__text">
-                        Biz Toshkent va butun Oʻzbekiston boʻylab veb-saytlarni ishlab chiqishni taklif etamiz: vizit
-                        kartalaridan tortib onlayn-doʻkonlargacha. A
-                        shuningdek, qidiruv tizimlarida kontekstli va SEO-tashviqoti.
-                    </div>
-                </a>
-                <a href="Mobiledevelopment.html" class="team__item col-lg-4 col-md-6 col-12">
-                    <div class="team__img"><img src="usoft/images/team/2.svg" alt=""></div>
+                <a href="3.html" class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="../storage/uploads/T3vaQOeLoOUr88D9QJIGPLwS7fzG7SlpS6ZCIgVn.svg"
+                            alt=""></div>
                     <div class="team__title">
-                        Mobil ilovalarni ishlab chiqish
+                        Создание сайтов
                     </div>
                     <div class="team__text">
-                        Biz Toshkent va butun Oʻzbekiston boʻylab veb-saytlarni ishlab chiqishni taklif etamiz: vizit
-                        kartalaridan tortib onlayn-doʻkonlargacha. A
-                        shuningdek, qidiruv tizimlarida kontekstli va SEO-tashviqoti.
+                        Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до
+                        Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
                     </div>
                 </a>
-                <a href="businessAutomation.html" class="team__item col-lg-4 col-md-6 col-12">
-                    <div class="team__img"><img src="usoft/images/team/3.svg" alt=""></div>
-                    <div class="team__title">Biznesni avtomatlashtirish</div>
+                <a href="4.html" class="team__item col-lg-4 col-md-6 col-12 ">
+                    <div class="team__img"><img src="../storage/uploads/vBa6MVhhgM2vMAGZWwiqnFAwtL2te1GiLIGredKi.svg"
+                            alt=""></div>
+                    <div class="team__title">
+                        Автоматизация бизнеса
+                    </div>
                     <div class="team__text">
-                        Uning mijozlar va biznes jarayonlarini avtomatlashtirish uchun veb-loyihalarni ishlab chiqish
-                        bo&#039;yicha katta tajribasi.
-                        hamkorlar, biz kompaniya ichida ishni tashkil etishga yordam beradigan yechimlarni yaratishga
-                        o&#039;tdik.
+                        Свой большой опыт разработки web-проектов автоматизации бизнес-процессов взаимодействия с
+                        клиентами и партнерами мы перенесли на создание решений, помогающих организовать работу
+                        внутри компании.
                     </div>
                 </a>
-            </div>
-        </div>
+                <!-- <a href="6.html" class="team__item col-lg-4 col-md-6 col-12 ">
+                        <div class="team__img"><img
+                                src="../storage/uploads/uUpY2BUv0DBQaYhNu2mkQujvDdaBBDy1rPmWsCVp.svg" alt=""></div>
+                        <div class="team__title">
+                            Разработка мобильных
+                            приложение
+                        </div>
+                        <div class="team__text">
+                            Мы предлагаем создание сайтов в Ташкенте и по всему Узбекистану: от визиток до
+                            Интернет-магазинов. А также контекстное и SEO-продвижение в поисковых системах.
+                        </div>
+                    </a> -->
 
-    </section>
+            </div>
+
+        </div><!-- container -->
+
+    </section><!-- section -->
 
 
 
@@ -314,10 +354,9 @@
                 <div class="project__inner">
                     <div class="row w-100">
                         <div class="project__item col-md-6 col-sm-12 mb-3">
-                            <div class="project__title">Loyiha haqida hali ham savollaringiz bormi?</div>
+                            <div class="project__title">Готовы обсудить детали проекта?</div>
                             <div class="project__text">
-                                So&#039;rov qoldiring va biz bugun siz bilan bog&#039;lanamiz! Biz sizning loyihangizni
-                                mutlaqo bepul maslahat beramiz va baholaymiz
+                                Напишите нам, обсудим детали и уже сегодня , Вы получите готовую смету проекта
                             </div>
                         </div>
                         <div id="form_block" class="project__item col-md-6 col-sm-12">
@@ -325,17 +364,17 @@
                                 <div class="form__group">
                                     <span style="color: red!important;font-size: 14px; display: none" id="name_error"
                                         class="text-danger error-text"></span>
-                                    <input placeholder="Ismingiz" type="text" name="name" id="name" class="form__input">
+                                    <input placeholder="Имя" type="text" name="name" id="name" class="form__input">
 
                                 </div>
                                 <div class="form__group">
                                     <span style="color: red!important;font-size: 14px; display: none" id="number_error"
                                         class="text-danger error-text"></span>
-                                    <input placeholder="Введите номер телефона" type="text" name="number" id="number"
+                                    <input placeholder="Телефон" type="text" name="number" id="number"
                                         class="form__input phone-number-input">
 
                                     <button data-url="http://www.ulasoft.uz/bid" class="form__button bid col-12"
-                                        type="button">Sayt buyurtma berish</button>
+                                        type="button">Заказать сайт</button>
 
 
                                 </div>
@@ -351,32 +390,32 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__item">
-                    <div class="footer__logo"><img src="usoft/images/logo-black.svg" alt=""></div>
+                    <div class="footer__logo"><img src="../usoft/images/logo-black.svg" alt=""></div>
                     <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames.</div>
                     <div class="footer__icon">
-                        <a href="umbrellasoftuz.html"><i class="fab fa-facebook-f"></i></a>
+                        <a href="../umbrellasoftuz.html"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/company/usoft-round-umbrella-llc"><i
                                 class="fab fa-linkedin-in"></i></a>
                         <a href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer__item">
-                    <div class="footer__title ">Bizning xizmatlar</div>
+                    <div class="footer__title ">Наши услуги</div>
                     <p>
-                        <a href="website.html">Veb-sayt ishlab chiqish</a>
+                        <a href="../website.html">Разработка сайтов</a>
                     </p>
                     <p>
-                        <a href="mobile-app.html">Mobil ilovalarni ishlab chiqish</a>
+                        <a href="../mobile-app.html">Разработка мобильных приложение</a>
                     </p>
                     <p>
-                        <a href="automation.html">Biznesni avtomatlashtirish</a>
+                        <a href="../automation.html">Автоматизация бизнеса</a>
                     </p>
 
                 </div>
                 <div class="footer__item footer__item--phone">
-                    <div class="footer__title">Bizning kontaktlarimiz</div>
+                    <div class="footer__title">Наши контакты</div>
                     <div class="footer__contet">
-                        <a href="#"><img src="usoft/images/footer/1.svg" alt=""></a>
+                        <a href="#"><img src="../usoft/images/footer/1.svg" alt=""></a>
                         <div class="footer__phone">
 
                             <a href="tel:+998 90 965 76 34">+998 90 965 76 34</a>
@@ -385,12 +424,12 @@
                         </div>
                     </div>
                     <div class="footer__contet">
-                        <a href="#"><img src="usoft/images/footer/2.svg" alt=""></a>
+                        <a href="#"><img src="../usoft/images/footer/2.svg" alt=""></a>
                         <div class="footer__phone">
-                            <a href="maps/place/Usoft - Разработка сайтов и Мобильных приложений в Ташкенте/@41.3005851,69.269403,19z/data=!3m1!4b1!4m5!3m4!1s0x38ae8bb57e24d1c90xf548ddd800cca44f!8m2!3d41.3005717!4d69.2699264.html"
+                            <a href="../maps/place/Usoft - Разработка сайтов и Мобильных приложений в Ташкенте/@41.3005851,69.269403,19z/data=!3m1!4b1!4m5!3m4!1s0x38ae8bb57e24d1c90xf548ddd800cca44f!8m2!3d41.3005717!4d69.2699264.html"
                                 target="blank">
-                                Toshkent sh., Afrosiob 6/1 Or-r: Koreya elchixonasi ro‘parasi
-
+                                Ташкент, ул.
+                                Шахристанская, 2
                             </a>
 
                         </div>
@@ -407,19 +446,19 @@
     </footer>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    <script src="../ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    <script src="../npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script src="../npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-    <script src="swiper@7.3.1/swiper-bundle.min.js"></script>
-    <script src="usoft/Js/jquery.maskedinput.min.js"></script>
+    <script src="../swiper@7.3.1/swiper-bundle.min.js"></script>
+    <script src="../usoft/Js/jquery.maskedinput.min.js"></script>
 
-    <script src="usoft/Js/app.js"></script>
+    <script src="../usoft/Js/app.js"></script>
 </body>
 
 </html>
