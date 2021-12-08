@@ -564,14 +564,14 @@ ul.breadcrumb li a span {
 
 /* media              */
 @media only screen and (max-width: 1024px) {
-   .intro__img img {
+   /* .intro__img img {
       width: 90% !important;
-   }
+   } */
 
-   .intro__img--mobile img {
+   /* .intro__img--mobile img {
       width: 50% !important;
 
-   }
+   } */
 
    .intro__title {
       font-size: 30px !important;
@@ -623,10 +623,10 @@ ul.breadcrumb li a span {
    .intro__img img {
       margin-bottom: 25px;
    }
-
+/* 
    .intro__img--mobile img {
       width: 50% !important;
-   }
+   } */
 
    .intro__title {
       text-align: center;
@@ -754,6 +754,7 @@ ul.breadcrumb li a span {
    }
 
    .intro__text {
+      text-align: center;
       width: 90%;
       text-align: start;
       font-size: 18px !important;
@@ -1019,6 +1020,8 @@ ul.breadcrumb li a span {
 /* media__end */
 /* intro */
 .intro {
+   justify-content: center;
+   align-items: center;
    display: flex;
 }
 
@@ -1057,6 +1060,8 @@ ul.breadcrumb li a span {
 }
 
 .intro__img img {
+   width: 100%;
+   height: 360px;
    object-fit: contain;
 }
 
@@ -1204,6 +1209,7 @@ ul.breadcrumb li a span {
    cursor: pointer;
    transition: box-shadow .2s linear;
 }
+
 .paeg__w {
    border: none;
 }
@@ -1699,6 +1705,35 @@ ul.breadcrumb li a span {
 
 /* webwork end */
 
+/* devices */
+.devices {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.devices__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.devices__photo {
+   width: 100%;
+   height: 70px;
+   object-fit: contain;
+   margin-bottom: 10px;
+}
+
+.devices__text {
+   font-size: 20px;
+   line-height: 1.1;
+   font-weight: 500;
+   text-align: center;
+}
+
 /* footer */
 .footer {
    padding: 40px 0 0;
@@ -1882,6 +1917,9 @@ ul.breadcrumb li a span {
    .copyright {
       font-size: 12px;
    }
+   .devices__text{
+      font-size: 12px !important;
+   }
 }
 
 @media only screen and (max-width: 739px) {
@@ -1902,6 +1940,7 @@ ul.breadcrumb li a span {
    .footer__text {
       font-size: 14px;
    }
+  
 
 
 }
@@ -1984,9 +2023,9 @@ ul.breadcrumb li a span {
    }
 
 
-   .intro__img img {
+   /* .intro__img img {
       width: 50%;
-   }
+   } */
 }
 
 @media only screen and (max-width: 425px) {}
