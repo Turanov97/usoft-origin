@@ -332,8 +332,8 @@ ul.breadcrumb li a span {
 }
 
 .new__img {
-   width: 190px;
-   height: 150px;
+   width: 200px;
+   height: 200px;
    margin-bottom: 40px;
    margin-top: auto;
 }
@@ -369,12 +369,13 @@ ul.breadcrumb li a span {
    background: #BA68C8 !important;
 }
 
-.swiper {
+.card__width {
    width: 350px;
    height: 350px;
 }
 
 .swiper-slide {
+   height: auto;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -424,6 +425,46 @@ ul.breadcrumb li a span {
    background-color: rgb(54, 94, 77);
 }
 
+/* sleider services */
+
+.sldier--services {
+   background: #fff !important;
+}
+
+.mySwiper1 {
+   width: 100% !important;
+
+}
+
+.mySwiper1 .swiper-slide {
+   height: auto;
+   padding: 15px 10px;
+}
+
+.services__card {
+   padding: 30px 20px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 90%;
+   box-shadow: 0px 0px 10.56px 1.44px #ff715e3b;
+}
+
+.secvices__card__text {
+   margin-top: 25px;
+   font-size: 20px;
+   font-weight: 500;
+   color: #212224;
+}
+
+.pogi {
+   bottom: 25px !important;
+}
+.next__button {
+   color: #FF725E;
+}
 
 /* kub__end */
 
@@ -715,13 +756,14 @@ ul.breadcrumb li a span {
       height: 370px;
    }
 
-   .swiper {
+   .card__width {
       width: 180px;
       height: 280px;
    }
 
    .new__img {
       width: 130px;
+      height: 130px;
       margin-bottom: 20px;
 
    }
@@ -745,6 +787,8 @@ ul.breadcrumb li a span {
       padding: 0;
       display: flex;
       justify-content: center;
+      width: 100% !important;
+      height: 100% !important;
    }
 
    .intro__title {
@@ -877,6 +921,11 @@ ul.breadcrumb li a span {
       font-size: 13px;
 
    }
+
+   .intro__img img {
+      width: 100% !important;
+      height: 100% !important;
+   }
 }
 
 /* media__end          */
@@ -971,6 +1020,10 @@ ul.breadcrumb li a span {
    .section__title {
       font-size: 35px;
    }
+
+   .sldier--services {
+      width: 48% !important;
+   }
 }
 
 @media only screen and (max-width: 766px) {
@@ -983,7 +1036,7 @@ ul.breadcrumb li a span {
    }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
    .section {
       padding: 20px 0;
    }
@@ -1002,6 +1055,10 @@ ul.breadcrumb li a span {
 
    .intro--section {
       padding-top: 90px;
+   }
+
+   .sldier--services {
+      width: 100% !important;
    }
 
    .nav {
@@ -1213,7 +1270,6 @@ ul.breadcrumb li a span {
    border: 1px solid #DDDDDD;
    padding: 10px 5px;
    border-radius: 10px;
-   cursor: pointer;
    transition: box-shadow .2s linear;
 }
 
@@ -1221,10 +1277,6 @@ ul.breadcrumb li a span {
    border: none;
 }
 
-.works__item:hover {
-   box-shadow: 0px 5px 16px 0px #d3d3d3;
-   border-color: transparent;
-}
 
 .works__item--automatic {
    padding: 0;
@@ -1728,9 +1780,7 @@ ul.breadcrumb li a span {
    transition: .3s ease-out;
 }
 
-.devices__item:hover {
-   box-shadow: 0px 0px 39.56px 3.44px rgba(5, 8, 9, 8%);
-}
+
 
 .devices__photo {
    width: 50px;
