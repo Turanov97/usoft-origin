@@ -26,6 +26,7 @@ function closeMenu() {
 var swiper = new Swiper(".mySwiper", {
   effect: "cards",
   grabCursor: true,
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -38,8 +39,12 @@ var swiper = new Swiper(".mySwiper1", {
   slidesPerView: 3,
   spaceBetween: 30,
   slidesPerGroup: 3,
+  autoplay: {
+    delay: 3000,
+  },
   loop: true,
   loopFillGroupWithBlank: true,
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -49,7 +54,31 @@ var swiper = new Swiper(".mySwiper1", {
     prevEl: ".swiper-button-prev",
   },
 });
+/* up down strelki */
 
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+let myBtn = document.querySelector('#myBtn')
+myBtn.addEventListener('click', topFunction)
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+/* ======================= */
 /*   var swiper = new Swiper(".mySwiper2", {
   effect: "flip",
   grabCursor: true,
@@ -210,9 +239,3 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
-
-
-
-
-/* lazy load */
-
