@@ -70,13 +70,13 @@ function scrollFunction() {
   }
 }
 
-let myBtn = document.querySelector('#myBtn')
-myBtn.addEventListener('click', topFunction)
+mybutton.addEventListener('click', topFunction)
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 
 /* ======================= */
 /*   var swiper = new Swiper(".mySwiper2", {
@@ -177,8 +177,6 @@ window.addEventListener('click', function (e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
-  console.log(e.target);
-
 });
 
 
@@ -248,11 +246,11 @@ window.ias = new InfiniteAjaxScroll('.surface-container', {
   spinner: '.loader'
 });
 
-ias.on('last', function() {
-  let el = document.querySelector('.no-more');
+// ias.on('last', function() {
+//   let el = document.querySelector('.no-more');
 
-  el.style.opacity = '1';
-});
+//   el.style.opacity = '1';
+// });
 
 // update title and url then scrolling through pages
 ias.on('page', (e) => {
